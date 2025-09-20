@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=MPV
+Comment=Open video or subtitle with existing mpv instance
+Exec=/home/zino/.local/bin/reuse_the_existing_mpv_instance.sh %f
+Icon=mpv
+Terminal=false
+Type=Application
