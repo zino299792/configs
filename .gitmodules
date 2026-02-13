@@ -101,3 +101,6 @@
 [submodule "emacs/site-lisp/consult-project-extra"]
 	path = emacs/site-lisp/consult-project-extra
 	url = git@github.com:Qkessler/consult-project-extra.git
+[submodule "emacs/site-lisp/emacs-everywhere"]
+	path = emacs/site-lisp/emacs-everywhere
+	url = git@github.com:tecosaur/emacs-everywhere.git
