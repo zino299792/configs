@@ -66,12 +66,6 @@ dlv
 # Raycast
 raycast/extensions
 
-# Rime
-rime/build/
-rime/user.yaml
-rime/sync
-rime/*.userdb
-
 # Wireshark
 wireshark/recent*
 wrieshark/preferences
@@ -80,3 +74,5 @@ Electron
 google-chrome
 sh.cider.genten
 go
+
+fcitx5/rime/
