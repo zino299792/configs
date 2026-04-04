@@ -104,3 +104,7 @@
 [submodule "emacs/site-lisp/emacs-everywhere"]
 	path = emacs/site-lisp/emacs-everywhere
 	url = git@github.com:tecosaur/emacs-everywhere.git
+[submodule "rime/upstream"]
+	path = rime/upstream
+	url = https://github.com/iDvel/rime-ice.git
+	ignore = dirty

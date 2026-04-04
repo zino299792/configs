@@ -1,0 +1,15 @@
+patch:
+  menu/page_size: 9
+  switches:
+    - name: ascii_mode
+      states: [ 中, A ]
+      reset: 1
+    - name: ascii_punct
+      states: [ "¥", "$" ]
+      reset: 1
+  key_binder/bindings:
+    - { when: has_menu, accept: Alt_L+v, send: Page_Up }
+    - { when: has_menu, accept: Control+v, send: Page_Down }
+  ascii_composer/switch_key:
+    Shift_L: noop
+    Shift_R: commit_code
