@@ -108,3 +108,6 @@
 	path = rime/upstream
 	url = https://github.com/iDvel/rime-ice.git
 	ignore = dirty
+[submodule "fcitx5/themes/Fluent-fcitx5"]
+	path = fcitx5/themes/Fluent-fcitx5
+	url = git@github.com:Reverier-Xu/Fluent-fcitx5.git
