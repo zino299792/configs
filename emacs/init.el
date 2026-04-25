@@ -5665,6 +5665,9 @@ New vterm buffer."
 (use-package package-lint
   :load-path "site-lisp/package-lint/")
 
+(use-package lilypond-mode
+  :load-path "site-lisp/lilypond/")
+
 ;; Try it some time.
 ;; (use-package sideline)
 ;; (use-package imenu-everywhere)
